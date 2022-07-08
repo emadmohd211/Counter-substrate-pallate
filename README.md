@@ -11,4 +11,4 @@ I also defined the storage value<br/>
   In order to compile the code, i executed `cargo build --release` from terminal.<br/>
   and in order to run the blockchain, in the bash terminal, i executed the command `./target/release/node-template --dev`<br/>
   The code file is located at,`\substrate-node-template\pallets\counter\src\lib.rs`.At line 70, is the code that implements the hook.Inside it in the on_finalize(), i used the blocknumber and found its modulus with 100, if it is 0, then increment the counter and store it in storage.<br/>
-  It was my first time exploring this substrate framework and i am happy to have explored it. Thanks for it. <br/>
+  <br/>
